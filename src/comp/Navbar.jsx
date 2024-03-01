@@ -16,11 +16,12 @@ function Navbar() {
         </h5>
       </div>
 
-      <button className={`text-white md:hidden ${isMenuOpen ? ' justify-start pr-14' : ' pr-24 justify-end'}`} onClick={toggleMenu}>
-        {isMenuOpen ? <MdClose className="w-10 h-10   " /> : <MdMenu className="w-10 h-10" />}
-      </button>
+      <button className={`text-white md:hidden flex justify-end ${isMenuOpen ? 'justify-start' : ''}`} onClick={toggleMenu}>
+  {isMenuOpen ? <MdClose className="w-10 h-10" /> : <MdMenu className="w-10 h-10" />}
+</button>
+
       {isMenuOpen && (
-        <ul className='fixed md:hidden  bg-[#623a92]  top-5 h-screen  flex flex-col items-center   p-4'>
+        <ul className='fixed md:hidden  bg-[#623a92]  top-2 h-screen  flex flex-col items-center   p-4'>
           <li className=' text-white m-1 underline   text-3xl hover:text-indigo-500  '><a href="/">Home</a></li>
           <li className='text-white m-1  underline  text-2xl hover:text-indigo-500'><a href="/">About_ME</a></li>
           <li className='text-white m-1  underline  text-2xl hover:text-indigo-500'><a href="/">Education</a></li>
@@ -32,7 +33,7 @@ function Navbar() {
       )}
       
       {/* Navbar Options */}
-      <ul className={`md:flex hidden font-semibold md: ml-60  md:z-[100] md:fixed text-white justify-start md:pt-6 ${isMenuOpen ? 'block' : 'hidden md:flex'}`}>
+      <ul className={`md:flex hidden font-semibold  text-white justify-start md:pt-6 ${isMenuOpen ? 'block' : 'hidden md:flex'}`}>
         <li className='  mx-8 md:text-2xl'>
           <a href="/">Home</a>
         </li>

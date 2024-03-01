@@ -4,8 +4,7 @@
 
 
 html,body{
-    width: 100%;
-    height: 100%;
+   
     background-image: linear-gradient(#d5d5d5,#40434c,#376e99,#623a92,#a8a9ac);
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
