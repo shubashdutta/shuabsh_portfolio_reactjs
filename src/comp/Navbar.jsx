@@ -10,8 +10,8 @@ function Navbar() {
 
   return (
     <nav className='w-25 h-14 flex justify-between md:p-9 sm:4 items-center'>
-      <div className='pt-4 pl-3'>
-        <h5 className='rounded-md p-2 hidden md:block bg-indigo-700 text-white font-semibold md:text-xl sm:text-base'>
+      <div className='pt-4 pl-3 '>
+        <h5 className='md:rounded-lg  md:p-2 hidden md:block bg-indigo-700 text-white  md:text-xl '>
           Shubash Portfiolo
         </h5>
       </div>
@@ -32,20 +32,20 @@ function Navbar() {
       )}
       
       {/* Navbar Options */}
-      <ul className={`md:flex hidden font-semibold  text-white justify-start md:pt-6 ${isMenuOpen ? 'block' : 'hidden md:flex'}`}>
-        <li className='  mx-8 md:text-2xl'>
+      <ul className={`md:flex hidden font-semibold  md:justify-evenly text-white md:pt-6 ${isMenuOpen ? 'block' : 'hidden md:flex'}`}>
+        <li className='  mx-8 md:text-xl md:hover:underline md:hover:text-indigo-900'>
           <a href="/">Home</a>
         </li>
-        <li className=' mx-8 md:text-2xl md:hover:underline md:hover:text-indigo-900'>
+        <li className=' mx-8 md:text-xl md:hover:underline md:hover:text-indigo-900'>
           <a href="/">About_ME</a>
         </li>
-        <li className=' mx-8 md:text-2xl'>
+        <li className='  mx-8 md:text-xl md:hover:underline md:hover:text-indigo-900'>
           <a href="/">Education</a>
         </li>
-        <li className='sm:mx-[45px] mx-8 md:text-2xl'>
+        <li className=' mx-8 md:text-xl md:hover:underline md:hover:text-indigo-900'>
           <a href="/">Project</a>
         </li>
-        <li className='sm:mx-[45px] mx-8 md:text-2xl'>
+        <li className=' mx-8 md:text-xl md:hover:underline md:hover:text-indigo-900'>
           <a href="/">Experiences</a>
         </li>
       </ul>
