@@ -13,7 +13,7 @@ function Myproject() {
             <img className=' rounded-lg  h-[200px] w-full' src="./Screenshot.png" alt="projectimg" />
             <div className='bg-white  mt-[3px]'>
                 <h3 className='text-center text-lg capitalize  font-semibold'>saibaba || ngo web_site</h3>
-                <p className='px-7 '>During my internship, I developed an NGO website with a dynamic, responsive UI using React.js. I utilized Golang in the backend for robust functionality, ensuring a seamless user experience.</p>
+                <p className='px-6 '>During my internship, I developed an NGO website with a dynamic, responsive UI using React.js. I utilized Golang in the backend for robust functionality, ensuring a seamless user experience.</p>
             </div>
             <a target='blank' href="https://github.com/shubashdutta"><button className=' md:text-2xl text-lg md:ml-20 mt-1 ml-44 hover:bg-green-800 rounded-lg bg-indigo-900 text-white  border-2'>socre code</button></a>
         </div>
@@ -21,7 +21,7 @@ function Myproject() {
         <img className=' rounded-lg  h-[200px] w-full' src="./prime.png" alt="projectimg" />
             <div className='bg-white  mt-[3px]'>
                 <h3 className='text-center text-lg capitalize  font-semibold'>Primestar || consulting</h3>
-                <p className='px-7 '>I'm proud to present the consulting website I developed during my internship. Tailored for individualized services, it offers expertise honed during my time at [Company Name]. </p>
+                <p className='px-6 '>I'm proud to present the consulting website I developed during my internship. Tailored for individualized services, it offers expertise honed during my time at [Company Name]. </p>
                
            
             </div>
@@ -31,7 +31,7 @@ function Myproject() {
         <img className=' rounded-lg  h-[200px] w-full' src="./e-com.png" alt="projectimg" />
             <div className='bg-white  mt-[3px]'>
                 <h3 className='text-center text-lg capitalize  font-semibold'>Returngiftnow || E-commerce</h3>
-                <p className='px-7 '>During my internship, I developed 40% of an e-commerce website, utilizing React.js and Golang. My tasks included building a full website before the internship concluded.</p>
+                <p className='px-6 '>During my internship, I developed 40% of an e-commerce website, utilizing React.js and Golang. My tasks included building a full website before the internship concluded.</p>
                 </div>
             <a target='blank' href="https://github.com/shubashdutta"><button className=' md:text-2xl text-lg md:ml-20 mt-1 ml-44 hover:bg-green-800 rounded-lg bg-indigo-900 text-white  border-2'>socre code</button></a>
         </div>
