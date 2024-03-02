@@ -8,8 +8,8 @@ function Myproject() {
       <h1>My Project</h1>
     </div>
 
-    <div className='md:flex md:flex-wrap justify-center md:justify-center w-100%  md:w-full h-full'>
-        <div className=' w-[80%]  shadow-2xl  ml-14  items-center blur-[2px] hover:blur-none  h-[370px] md:w-[20%] rounded-xl  mb-5 md:h-[420px] border-2'>
+    <div className='md:flex md:flex-wrap justify-center md:justify-center w-100%  md:h-100% md:w-full h-100%'>
+        <div className=' w-[80%]  shadow-2xl  ml-14  items-center md:blur-[2px] hover:blur-none  h-[370px] md:w-[20%] rounded-xl  mb-5 md:h-[420px] border-2'>
             <img className=' rounded-lg  h-[200px] w-full' src="./Screenshot.png" alt="projectimg" />
             <div className='bg-white  mt-[3px]'>
                 <h3 className='text-center text-lg capitalize  font-semibold'>saibaba || ngo web_site</h3>
@@ -17,7 +17,7 @@ function Myproject() {
             </div>
             <a target='blank' href="https://github.com/shubashdutta"><button className=' md:text-2xl text-lg md:ml-24 mt-1 ml-44 hover:bg-green-800 rounded-lg bg-indigo-900 text-white  border-2'>socre code</button></a>
         </div>
-        <div className='w-[80%] ml-14 shadow-lg  items-center blur-[2px] hover:blur-none mb-5   h-[370px] md:w-[20%] rounded-xl md:h-[420px] border-2 ' >
+        <div className='w-[80%] ml-14 shadow-lg  items-center md:blur-[2px] hover:blur-none mb-5    h-96 md:w-[20%] rounded-xl md:h-[520px] border-2 ' >
         <img className=' rounded-lg  h-[200px] w-full' src="./prime.png" alt="projectimg" />
             <div className='bg-white  mt-[3px]'>
                 <h3 className='text-center text-lg capitalize  font-semibold'>Primestar || consulting</h3>
@@ -27,7 +27,7 @@ function Myproject() {
             </div>
             <a target='blank' href="https://github.com/shubashdutta"><button className=' md:text-2xl text-lg md:ml-24 mt-1 ml-44 hover:bg-green-800 rounded-lg bg-indigo-900 text-white  border-2'>socre code</button></a>
         </div>
-        <div className='w-[80%] ml-14 shadow-lg blur-[2px] hover:blur-none  items-center  h-96 md:w-[20%] rounded-xl md:h-[420px] border-2'>
+        <div className='w-[80%] ml-14 shadow-lg md:blur-[2px] hover:blur-none  items-center  h-96 md:w-[20%] rounded-xl md:h-[420px] border-2'>
         <img className=' rounded-lg  h-[200px] w-full' src="./e-com.png" alt="projectimg" />
             <div className='bg-white  mt-[3px]'>
                 <h3 className='text-center text-lg capitalize  font-semibold'>Returngiftnow || E-commerce</h3>
