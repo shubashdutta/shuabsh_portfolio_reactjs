@@ -6,8 +6,9 @@ import { faCode,faCog } from '@fortawesome/free-solid-svg-icons';
 
 function Myskill() {
   return (
+    <>
     <div>
-     <div className=' w-full    h-96 '>
+     <div className=' w-full h-[100%] '>
         <h1 className='text-center text-3xl font-bold md: mt-8'>My Skill's</h1>
 
     
@@ -52,7 +53,10 @@ function Myskill() {
           </div></div>
       </div>
      </div>
+     <hr className=' hidden md:block border-b-4 border-[white] mt-4 md:mt-2  md:mx-[50px]' />
     </div>
+    
+     </>
   )
 }
 
