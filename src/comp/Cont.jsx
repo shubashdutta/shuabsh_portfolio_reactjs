@@ -51,7 +51,7 @@ function Cont() {
           </center>
           <center className="mt-3 mr-3 md:mr-2 hover:text-green-500 text-sm md:text-2xl  font-semibold md:font-bold">
             <a href={subash} download="subash">
-              Download Cv
+              Download CV
             </a>
           </center>
         </div>
